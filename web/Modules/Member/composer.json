@@ -1,0 +1,23 @@
+{
+    "name": "vendor/member",
+    "description": "",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Member\\Providers\\MemberServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Member\\": ""
+        }
+    }
+}
